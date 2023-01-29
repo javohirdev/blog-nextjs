@@ -206,8 +206,67 @@ img {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
+  .container{
+    padding: 0 15px;
+  }
+  .header{
+    position: absolute;
+    left: 37%;
+  }
+  .welcome-text{
+    width: 140%;
+    font-size: 28px;
+  }
   .posts {
     grid-template-columns: 1fr;
+  }
+  .card-body h3{
+    font-size: 20px;
+  }
+  .card-body p{
+    font-size: 15px;
+  }
+
+  .post-title{
+    font-size: 25px;
+  }
+  .post-body h1, h2{
+    font-size: 20px;
+  }
+  .post-body p{
+    font-size: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .container{
+    padding: 0 15px;
+  }
+  .header{
+    position: absolute;
+    left: 37%;
+  }
+  .welcome-text{
+    width: 150%;
+    font-size: 23px;
+  }
+  .posts {
+    grid-template-columns: 1fr;
+  }
+  .card-body h3{
+    font-size: 20px;
+  }
+  .card-body p{
+    font-size: 15px;
+  }
+
+  .post-title{
+    font-size: 25px;
+  }
+  .post-body h1, h2{
+    font-size: 20px;
+  }
+  .post-body p{
+    font-size: 15px;
   }
 }
