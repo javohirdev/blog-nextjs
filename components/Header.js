@@ -1,20 +1,30 @@
 import Link from 'next/link'
-import Head from 'next/head'
+import { NextSeo } from 'next-seo';
 
 export default function Header() {
   return (
     <>
-      <Head>
-        <title>Dasturlashga oid foydali resurslar (TEST rejimida)</title>
-      </Head>
+      <NextSeo
+        title="Dasturlashga oid foydali resurslar (TEST rejimida)"
+        description="Dasturlashga oid foydali resurslar"
+      />
       <div className='header'>
         <h2 className='welcome-text'>
-          Hi <span class="wave">👋</span> Men <span className='myname'>Javohir Hakimov</span>,
+          Salom <span class="wave">👋</span> <br />
+          Men <span className='myname'>Javohir Hakimov</span>,
           ushbu blogda frontend bo'yicha o'z tajribam, shuningdek React, Next, JavaScript kabi mavzulardagi
           bilimlarimni ulashib boraman
         </h2>
-        <div className='button-area'>
-          <Link href={"/blogs"} className="blogs-btn">Bloglar</Link>
+        <div className='buttons-box'>
+          <div className='button-area'>
+            <Link href={"/blogs"} className="blogs-btn">Bloglar</Link>
+          </div>
+          <div className='button-area'>
+            <Link href={"/ebooks"} className="blogs-btn">E-kitoblar</Link>
+          </div>
+          <div className='button-area'>
+            <Link href={"/events"} className="blogs-btn">Tadbirlar</Link>
+          </div>
         </div>
       </div>
     </>
