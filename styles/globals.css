@@ -58,6 +58,11 @@ img {
   color: #ffa7c4;
 }
 
+.buttons-box{
+  display: flex;
+  gap: 10px;
+}
+
 .button-area{
   margin-top: 30px;
 }
@@ -179,94 +184,43 @@ img {
   color: #ffa7c4;
 }
 
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0.0deg)
-  }
-  10% {
-    transform: rotate(14.0deg)
-  }
-  20% {
-    transform: rotate(-8.0deg)
-  }
-  30% {
-    transform: rotate(14.0deg)
-  }
-  40% {
-    transform: rotate(-4.0deg)
-  }
-  50% {
-    transform: rotate(10.0deg)
-  }
-  60% {
-    transform: rotate(0.0deg)
-  }
-  100% {
-    transform: rotate(0.0deg)
-  }
+/** EVENTS **/
+
+
+.page-title{
+  margin: 30px 0;
+  color: #ffa7c4;
 }
 
-@media (max-width: 768px) {
-  .container{
-    padding: 0 15px;
-  }
-  .header{
-    position: absolute;
-    left: 37%;
-  }
-  .welcome-text{
-    width: 140%;
-    font-size: 28px;
-  }
-  .posts {
-    grid-template-columns: 1fr;
-  }
-  .card-body h3{
-    font-size: 20px;
-  }
-  .card-body p{
-    font-size: 15px;
-  }
-
-  .post-title{
-    font-size: 25px;
-  }
-  .post-body h1, h2{
-    font-size: 20px;
-  }
-  .post-body p{
-    font-size: 15px;
-  }
+.events-card{
+  background-color: #2e3039;
+  display: flex;
+  padding: 20px;
 }
-@media (max-width: 500px) {
-  .container{
-    padding: 0 15px;
-  }
-  .header{
-    position: absolute;
-    left: 37%;
-  }
-  .welcome-text{
-    width: 150%;
-    font-size: 23px;
-  }
-  .posts {
-    grid-template-columns: 1fr;
-  }
-  .card-body h3{
-    font-size: 20px;
-  }
-  .card-body p{
-    font-size: 15px;
-  }
-
-  .post-title{
-    font-size: 25px;
-  }
-  .post-body h1, h2{
-    font-size: 20px;
-  }
-  .post-body p{
-    font-size: 15px;
-  }
+.events-card h4{
+  font-size: 20px;
+}
+.theme{
+  display: flex;
+  align-items: center;
+}
+.title{
+  color: #Fff;
+  letter-spacing: 0.5px;;
+}
+.price{
+  background-color: #68d94a;
+  padding: 0 10px;
+  margin-left: 20px;
+}
+.description{
+  color: #a9adc1;
+}
+.date{
+  color: #fff;
+}
+.register-btn{
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 50px;
 }
