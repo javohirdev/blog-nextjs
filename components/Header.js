@@ -12,7 +12,7 @@ export default function Header() {
         <h2 className='welcome-text'>
           Salom <span class="wave">👋</span> <br />
           Men <span className='myname'>Javohir Hakimov</span>,
-          ushbu blogda frontend bo'yicha o'z tajribam, shuningdek React, Next, JavaScript kabi mavzulardagi
+          ushbu blogda React, Next, JavaScript kabi mavzulardagi
           bilimlarimni ulashib boraman
         </h2>
         <div className='buttons-box'>
@@ -22,9 +22,9 @@ export default function Header() {
           <div className='button-area'>
             <Link href={"/ebooks"} className="blogs-btn">E-kitoblar</Link>
           </div>
-          <div className='button-area'>
+          {/* <div className='button-area'>
             <Link href={"/events"} className="blogs-btn">Tadbirlar</Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

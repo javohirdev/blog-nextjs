@@ -71,16 +71,36 @@
     .post-body p {
         font-size: 15px;
     }
+    .books{
+        text-align: center;
+    }
 }
 
 @media (max-width: 500px) {
+    .buttons-box {
+        width: 120%;
+        display: flex;
+    }
+
+    .button-area .blogs-btn {
+        padding: 10px;
+    }
+
+    .book-body .title {
+        font-size: 16px;
+    }
+
+    .button-area h1 {
+        font-size: 30px;
+    }
+
     .container {
         padding: 0 15px;
     }
 
     .header {
-        position: absolute;
-        left: 37%;
+      position: absolute;
+      right: 10px;
     }
 
     .welcome-text {
@@ -110,6 +130,20 @@
     }
 
     .post-body p {
+        font-size: 15px;
+    }
+
+    .books {
+        margin: 10px 0 0;
+        text-align: center;
+    }
+
+    .book-img {
+        width: 60%;
+    }
+
+    .register-btn {
+        padding: 10px;
         font-size: 15px;
     }
 }
