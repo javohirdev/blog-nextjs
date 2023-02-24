@@ -1,7 +1,7 @@
 ---
 title: 'ChatGPT sizni ish samaradorlingizni oshirishi mumkin'
 date: '24 Feb, 2023'
-excerpt: 'Ushbu maqola 2023-yilda ishingizni yengil qiladigan 5 ta ajoyib vscode plaginlarini jamladik. Qani ketdik...'
+excerpt: 'Ko'pgina muhokamalarga sabab bo'lgan, ushbu neyro-tarmoqning foydali jihatlari..'
 cover_image: 'https://firebasestorage.googleapis.com/v0/b/javohirblog-27519.appspot.com/o/openai-min.png?alt=media&token=32763e3f-90d6-48f3-ad31-8c13339fc679'
 ---
 
