@@ -4,6 +4,16 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { marked } from 'marked';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import {
+  TelegramShareButton,
+  TelegramIcon, 
+  FacebookIcon,
+  FacebookShareButton,
+  LinkedinIcon,
+  LinkedinShareButton 
+} from 'react-share';
 
 export default function PostPage({
   frontmatter: { title, date, cover_image },
@@ -23,9 +33,30 @@ export default function PostPage({
       <div className='post'>
         <h1 className='post-title'>{title}</h1>
         <div className='post-date'>{date}</div>
-        <img src={cover_image} alt='' />
+        <LazyLoadImage
+          src={cover_image}
+          effect="blur"
+        />
         <div className='post-body'>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+        </div>
+        <div className='share'>
+          <p>Maqolani ulashing:</p>
+          <TelegramShareButton
+            url={`https://javohirdev.netlify.app/blogs/blog/${slug}`}
+          >
+            <TelegramIcon size={32} round />
+          </TelegramShareButton>
+          <LinkedinShareButton
+            url={`https://javohirdev.netlify.app/blogs/blog/${slug}`}
+          >
+            <LinkedinIcon size={32} round />
+          </LinkedinShareButton>
+          <FacebookShareButton
+            url={`https://javohirdev.netlify.app/blogs/blog/${slug}`}
+          >
+            <FacebookIcon size={32} round />
+          </FacebookShareButton>
         </div>
       </div>
     </div>
