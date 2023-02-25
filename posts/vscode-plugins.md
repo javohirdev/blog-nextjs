@@ -1,5 +1,5 @@
 ---
-title: '💡Bu VSCode extensionlari orqali ishingiz yanada osonlashadi'
+title: 'Bu VSCode extensionlari orqali ishingizni qulaylashtiradi'
 date: '23 Feb, 2023'
 excerpt: 'Ushbu maqola 2023-yilda ishingizni yengil qiladigan 5 ta ajoyib vscode plaginlarini jamladik. Qani ketdik...'
 cover_image: 'https://code.visualstudio.com/opengraphimg/opengraph-home.png'
