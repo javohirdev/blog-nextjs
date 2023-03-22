@@ -29,7 +29,7 @@ img {
 .container {
   max-width: 960px;
   margin: auto;
-  overflow: auto;
+  /* overflow: auto; */
   padding: 0 10px;
 }
 
@@ -207,4 +207,31 @@ h2 {
 }
 .share button{
   margin: 0 5px;
+}
+
+/** BOOK **/
+
+.books{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  margin-top: 30px;
+}
+.book-body .title{
+  font-size: 20px;
+  color: #ffffff;
+  letter-spacing: 0.7px;
+}
+.book-img{
+  width: 95%;
+}
+.register-btn{
+  background-color: #5686F51A;
+  color: #ffa7c4;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.register-btn:hover{
+  background-color: #ffa7c4;
+  color: #1f2028;
 }

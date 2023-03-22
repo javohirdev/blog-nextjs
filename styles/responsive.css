@@ -32,6 +32,16 @@
     }
 }
 
+@media (max-width: 1024px){
+    .book-img{
+        width: 300px;
+    }
+    .books {
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 0 15px;
@@ -71,8 +81,9 @@
     .post-body p {
         font-size: 15px;
     }
-    .books{
+    .books {
         text-align: center;
+        grid-template-columns: 1fr;
     }
 }
 
@@ -136,6 +147,7 @@
     .books {
         margin: 10px 0 0;
         text-align: center;
+        grid-template-columns: 1fr;
     }
 
     .book-img {
